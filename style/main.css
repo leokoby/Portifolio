@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    scroll-behavior:smooth;
+}
+
+.topo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: var(--topo-bg);
+}
+
+.topo .top-text{
+    font-family:var(--font-family-h1);
+    font-size: var(--font-size-h1);
+    color: var(--font-color-h1);
+    text-align: center;    
+}
+
+.topo .btn{
+    margin: 50px;
+}
+
+.topo .btn a{
+    display: block;
+    color: white;
+    font-family: var(--font-family-text);
+    font-size: 1.5rem;
+    padding: 20px;
+    border: 3px solid white;
+    transition: all .3s;
+    
+}
+
+.topo .btn a:hover{
+    background-color: #04b0c7;
+    transform: translateY(-10px);
+}
+
+/* fim topo */
+
+.menu{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    background-color: var(--menu-bg);
+    border-bottom: 2px solid #04b0c7;
+}
+
+.menu .menu-links{
+    padding-left: 20%;
+}
+
+.menu .menu-links a{
+    color: var(--font-color-linkmenu);
+    font-family: var(--font-family-text);
+    letter-spacing: 2px;
+    padding:0 20px;
+    transition: .3s ease;
+}
+
+.menu .menu-links a:hover, .active{
+    color: #04b0c7;
+}
+
+/* fim menu */
+
+.sobre{
+    width: 100%;
+}
+
+.sobre .sobre-container{
+    padding: 0 20%;
+}
+
+.sobre .sobre-container .sobre-title{
+    font-size: var(--font-size-title);
+}
