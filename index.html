@@ -26,7 +26,7 @@
             <a href="#sobre">SOBRE MIM</a>
         </div>
     </header>
-    <nav class="menu">
+    <nav class="menu" id="menu">
         <div class="menu-links">
             <a href="#topo">INÍCIO</a>
             <a href="#sobre">SOBRE</a>
@@ -42,7 +42,7 @@
             </div>
             <div class="sobre-content">
                 <div class="sobre-img">
-                     <img src="./src/img-foto.png" alt="foto perfil" draggable="false">
+                     <img src="./src/imgs/img-foto.png" alt="foto perfil" draggable="false">
                 </div>
                 <div class="sobre-text">
                     <div>
@@ -93,12 +93,25 @@
                 <div class="line"></div>
             </div>
             <div class="contato-content">
-                <input type="text" name="nome" id="nome" placeholder="Nome" required>
-                <input type="email" name="nome" id="nome" placeholder="Email" required>
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
-                <button type="submit" class="btn-form">Enviar</button>
+                <form action="mailto:leokoby.job@gmail.com" method="POST" name="form">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem.."></textarea>
+                    <input type="submit" name=" submit" class="btn-form" value="Enviar"></input>
+                </form>
             </div>
         </div>
-    </div>
+    </div><!--end contato-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./src/scripts/menuSticky.js"></script>
 </body>
 </html>
