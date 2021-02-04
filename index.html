@@ -10,8 +10,8 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&family=Courier+Prime&display=swap" rel="stylesheet">
-
-
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/b1bd5223f4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="topo" id="topo">
@@ -38,6 +38,65 @@
         <div class="sobre-container">
             <div class="sobre-title">
                 <h4>SOBRE</h4>
+                <div class="line"></div>
+            </div>
+            <div class="sobre-content">
+                <div class="sobre-img">
+                     <img src="./src/img-foto.png" alt="foto perfil" draggable="false">
+                </div>
+                <div class="sobre-text">
+                    <div>
+                        <p>
+                            Meu nome é Leonardo Kobylinski, sou Desenvolvedor Front-End. Formado em Análise e Desenvolvimento de Sistemas, pela Universidade Estácio de Sá. Boa parte do meu tempo, dedico a aperfeiçoar meus conhecimentos, para que eu possa desenvolver meus projetos com tudo que há de mais novo no mercado.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>conhecimentos:</h4>
+                    </div>
+                    <div class="conhecimento">
+                        <div class="icon-box">
+                            <i class="fab fa-html5 fa-3x"></i>
+                            <p>HTML</p>
+                        </div>
+                        <div class="icon-box">
+                            <i class="fab fa-css3-alt fa-3x"></i>
+                            <p>CSS</p>
+                        </div>
+                        <div class="icon-box">
+                            <i class="fab fa-js fa-3x"></i>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="icon-box">
+                            <i class="fab fa-react fa-3x"></i>
+                            <p>REACT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--end container-->
+    </div><!--end sobre-->
+    <div class="portifolio" id="portifolio">
+        <div class="portifolio-container">
+            <div class="portifolio-title">
+                <h4>Projetos</h4>
+                <div class="line"></div>
+            </div>
+            <div class="portifolio-content">
+                <p style="font-size:20px">Não há projetos no momento..</p>
+            </div>
+        </div>
+    </div><!--end portifolio-->
+    <div class="contato" id="contato">
+        <div class="contato-container">
+            <div class="contato-title">
+                <h4>Contato</h4>
+                <div class="line"></div>
+            </div>
+            <div class="contato-content">
+                <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                <input type="email" name="nome" id="nome" placeholder="Email" required>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                <button type="submit" class="btn-form">Enviar</button>
             </div>
         </div>
     </div>

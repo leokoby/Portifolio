@@ -1,8 +1,8 @@
 :root{
     --font-size-h1:1.5rem;
-    --font-size-title:2rem;
+    --font-size-title:2.5rem;
     --font-size-subtitle:1.1rem;
-    --font-size-p:1rem;
+    --font-size-p:2rem;
     --font-size-menu:1rem;
 
     --font-family-h1:'Courier Prime', monospace;
@@ -15,4 +15,6 @@
 
     --topo-bg:linear-gradient(140deg, #13475e 0%, #000000 100%, #052838 100%);
     --menu-bg:#1f1f1f;
+    --portifolio-bg: #ececec;
+    --contato-bg:#2E2E2E;
 }
