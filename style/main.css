@@ -133,10 +133,10 @@ html{
 .sobre .sobre-container .sobre-content{
     margin-top: 200px;
     width: 100%;
-    height: 500px;
+    height: 100%;
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .sobre .sobre-container .sobre-content .sobre-img img{
@@ -243,49 +243,55 @@ html{
     margin-top: 20px;
 }
 
-.contato .contato-container .contato-content form{
-    margin-top: 50px;
+.contato .contato-container .contato-content{
+    padding: 50px 0;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.contato .contato-container .contato-content .box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(51, 51, 51);
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 10px;
+    color: rgb(100, 100, 100);
+    transition: .3s ease-in;
+    border:1px solid rgb(77, 77, 77)
 }
 
-.contato .contato-container .contato-content input{
-    width: 500px;
-    padding: 15px;
-    margin:10px;
-    background-color: rgb(34, 34, 34);
-    border: none;
-    color: #fff;
-    font-family: var(--font-family-text);
-}
-.contato .contato-container .contato-content textarea{
-    resize: none;
-    width: 500px;
-    padding: 10px;
-    background-color: rgb(34, 34, 34);
-    border: none;
-    color: #fff;
-    font-family: var(--font-family-text);
-    
-}
-.contato .contato-container .contato-content .btn-form{
-    padding: 10px 100px;
-    margin: 20px;
-    background-color: transparent;
-    border: 1px solid #ffffff;
-    color:rgb(255, 255, 255);
-    font-family: var(--font-family-text);
-    cursor: pointer;
-    font-size: 18px;
-    transition: all .3s;
-   
-}
-.contato .contato-container .contato-content .btn-form:hover{
-    background-color: #01899b;
-    border: 1px solid #13fdf1;
+.contato .contato-container .contato-content .box:hover{
+    color: white;
+    background-color: #04b0c7;
+    transform: translateY(-5px);
 }
 
-.contato .contato-container .contato-content .btn-form:focus{
-    outline: none;
+.contato .contato-container .contato-content .box i{
+   margin: 10px;
+}
+
+
+.contato .contato-container .contato-content .box p{
+    letter-spacing: 2px;
+    font-family: var(--font-family-text);
+}
+
+footer{
+    background-color: rgb(19, 59, 65);
+    color: rgb(129, 129, 129);
+    font-family: var(--font-family-text);
+    font-size: 15px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
