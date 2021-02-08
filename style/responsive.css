@@ -64,6 +64,18 @@
      .contato .contato-container .contato-content .box{
         margin: 5px 0;
     }
+    .menu .menu-links{
+        padding-left: 2%;
+    }
+    
+    .menu .menu-links a{
+        color: var(--font-color-linkmenu);
+        font-family: var(--font-family-text);
+        font-size: 13px;
+        letter-spacing: 2px;
+        padding:0 20px;
+        transition: .3s ease;
+    }
 
 }
 
